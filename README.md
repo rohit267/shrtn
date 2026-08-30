@@ -2,6 +2,8 @@
 
 A tiny real link shortener. MERN: MongoDB, Express, React, Node.
 
+**Live:** [shrtn-rohitmahto267.dormhost.app](https://shrtn-rohitmahto267.dormhost.app/), deployed on [DormHost.dev](https://dormhost.dev).
+
 - `index.js`, `package.json` at the root — this is the deployable app.
 - `client/` — the React frontend, Vite. Built into `public/` at deploy time,
   which `index.js` serves.
@@ -37,3 +39,4 @@ npm start
 `index.html` for any route React handles client-side. One process, one port,
 one deploy. A platform that runs `heroku-postbuild` automatically (most
 buildpack-based ones do) needs nothing more than `npm install` and `npm start`.
+This one runs on [DormHost](https://dormhost.dev), that's exactly the flow it uses.
